@@ -6,6 +6,11 @@ The method runs on several binary and multiclass datasets from the [CUMIDA repos
 ## imbalance problem
 
 ## Kernel Density Estimation
+Kernel Density Estimation, or KDE, is a non-parametric method for estimating the probability density function of a set of random variables. Unlike parametric methods that estimate parameters by maximizing the Maximum Likelihood of obtaining the current sample, KDE estimates the density distribution directly from the data. Intuitively, KDE can be simplified to a histogram representation, with the main difference being that data drives the block’s location. Instead of having a sum of boxes, a Kernel density estimator is composed of a sum of 'bumps', whose width is controlled by a smoothing parameter usually called 'bandwidth'\cite{SilvermanDENSITYANALYSIS}. These bumps are centered on the point they represent, leading to a better representation of the underlying data. Moreover, the more the points are in a given location, the more the contribution of those points is for the resulting density estimation. Thus, indicating the probability of seeing a point in that location.
+
+\begin{equation}\label{KDE}
+    f(x) = \frac{1}{n}\sum_{i=1}^{n}K_h(x-x_i)
+\end{equation}
 
 ## Approach
 
