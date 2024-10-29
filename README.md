@@ -12,7 +12,7 @@ Kernel Density Estimation, or KDE, is a non-parametric method for estimating the
 Where, $\mathit{K}$  is the kernel function, $\mathit{h}$  is the bandwidth parameter, and $\mathit{n}$  is the number of observations. Intuitively, the true value of $\mathit{f(x)}$ is estimated as the average distance from $\mathit{x}$  to the sample data points $x_i$.  Given a continuous random variable, KDE produces a curve, which is an estimate of the underlying distribution of this data.
 
 <p align="center">
-  <img src=![kernel_gaussian](https://github.com/user-attachments/assets/77c6285b-f25d-4ae9-97a4-e795ce9995d5)\>
+  <img src=(https://github.com/user-attachments/assets/77c6285b-f25d-4ae9-97a4-e795ce9995d5)\>
 </p>
 
 
