@@ -7,7 +7,7 @@ The method runs on several binary and multiclass datasets from the [CUMIDA repos
 ## Kernel Density Estimation
 Kernel Density Estimation, or KDE, is a non-parametric method for estimating the probability density function of a set of random variables. Unlike parametric methods that estimate parameters by maximizing the Maximum Likelihood of obtaining the current sample, KDE estimates the density distribution directly from the data. 
 
-$ f(x) = \frac{1}{n}\sum_{i=1}^{n}K_h(x-x_i)
+$f(x) = \frac{1}{n}\sum_{i=1}^{n}K_h(x-x_i)$
 
 
 
