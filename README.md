@@ -9,5 +9,9 @@ Kernel Density Estimation, or KDE, is a non-parametric method for estimating the
 
 
 
+## 2-Dimensional KDE visualization 
 
 
+
+![KDE_ORI20240914_1851](https://github.com/user-attachments/assets/2cbfdb55-a1d8-454c-bf16-81d5d944fd6c)
+![KDE_OVSAP20240914_1748](https://github.com/user-attachments/assets/69d0549a-3e32-465c-a618-09cf2345d46d)
