@@ -20,7 +20,7 @@ Moreover, the kernel estimator depends on two parameters, i.e. the kernel functi
 The first refers to the way the data points are weighted depending on the type of kernel function. There are plenty of available kernel functions: epanechikov, biweight, triangular, gaussian, and rectangular kernels
 
 <p align="center">
-  ![kernels_image](https://github.com/user-attachments/assets/7a29f9bf-2a3f-49af-a738-f3d34c6f833f)
+  <img src=https://github.com/user-attachments/assets/7a29f9bf-2a3f-49af-a738-f3d34c6f833f\>
 </p>
 
 ## 2-Dimensional KDE visualization 
