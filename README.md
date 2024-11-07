@@ -23,14 +23,7 @@ The first refers to how the data points are weighted depending on the type of ke
 <p align="center">
   <img src=https://github.com/user-attachments/assets/7a29f9bf-2a3f-49af-a738-f3d34c6f833f\>
 </p>
-<!--
-## 2-Dimensional KDE visualization 
 
-
-![KDE_ORI20240914_1851](https://github.com/user-attachments/assets/2cbfdb55-a1d8-454c-bf16-81d5d944fd6c)
-
-![KDE_OVSAP20240914_1748](https://github.com/user-attachments/assets/69d0549a-3e32-465c-a618-09cf2345d46d)
--->
 ## Approach
 
 ## Validation
@@ -40,6 +33,15 @@ The approach is tested on a stratified 10-fold cross-validation (CV) comparing a
   <img src=https://github.com/user-attachments/assets/a5e577fe-6a5e-4670-a34a-2479622d3ffc\>
 </p>
 
+
+<!--
+## 2-Dimensional KDE visualization 
+
+
+![KDE_ORI20240914_1851](https://github.com/user-attachments/assets/2cbfdb55-a1d8-454c-bf16-81d5d944fd6c)
+
+![KDE_OVSAP20240914_1748](https://github.com/user-attachments/assets/69d0549a-3e32-465c-a618-09cf2345d46d)
+--!>
 
 
 
