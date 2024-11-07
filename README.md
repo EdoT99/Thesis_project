@@ -36,7 +36,9 @@ used the multivariate Gaussian KDE with its default bandwidth value determined b
 </p>
    
 ## Validation
-The approach is tested on a stratified 10-fold cross-validation (CV) comparing algorithms classification performances trained on the original, KDE-oversampled, and SMOTE-oversampled partitions.
+A stratified 10-fold cross-validation schema compares a basic classifier of choice on KDE-based augmented data and SMOTE-based oversampling, along with a default not-oversampled dataset. 
+In a 10-fold cross-validation, a given training set is randomly split into ten sets that are as close as equal as possible. However, in the context of class imbalance, a stratified procedure ensures that class proportions are maintained across all ten sets. Then, a model is trained on nine of these sets and validated on the tenth. This procedure is repeated for all sets until ten different performances are obtained. 
+In this framework, the oversampling procedures are integrated within each training partition, thus creating for a given dataset, three parallel training sets during each cross-validation iteration.
 
 <p align="center">
   <img src=https://github.com/user-attachments/assets/17ef6e60-56bc-4f18-896e-2fe79dabf9f9\>
