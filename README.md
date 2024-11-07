@@ -25,12 +25,17 @@ The first refers to how the data points are weighted depending on the type of ke
 </p>
 
 ## Approach
+<p align="center">
+   <img src=https://github.com/user-attachments/assets/785758b1-faee-4724-890f-8cabb23c935d\>
 
+</p>
+   
 ## Validation
 The approach is tested on a stratified 10-fold cross-validation (CV) comparing algorithms classification performances trained on the original, KDE-oversampled, and SMOTE-oversampled partitions.
 
 <p align="center">
-  <img src=https://github.com/user-attachments/assets/a5e577fe-6a5e-4670-a34a-2479622d3ffc\>
+  <img src=https://github.com/user-attachments/assets/17ef6e60-56bc-4f18-896e-2fe79dabf9f9\>
+\>
 </p>
 
 
