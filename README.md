@@ -25,6 +25,10 @@ The first refers to how the data points are weighted depending on the type of ke
 </p>
 
 ## Approach
+Consider a given training data set $S$ with $m$ examples (i.e., $|S| = m$), we define $S = \{(x_i,y_i\}, i = 1,...,m$, where $x_i \in X$ is an instance in the n-dimensional feature space $X = \{ f_1;f_2; ... ;f_n \}$, and $y_i \in Y = \{1,...,C\}$ is a class identity label associated with instance $x_i$. In particular, $C = 2$ represents the two-class classification problem. Furthermore, we define subsets $S_{min} \in S$ and $S_{maj} \in S$, where $S_{min}$ is the set of minority class examples in $S$, and $S_{maj}$ is the set of the majority class examples in $S$ ,so that $S_{min} \cap S_{maj}= \emptyset$ and $S_{min} \cup S_{maj}= {S}$. Lastly, any sets generated from sampling procedures on $S_{min}$ are labeled as $E$ representing the newly generated minority examples. 
+Given a Kernel Density Estimation or KDE model, with a 'Gaussian' kernel function $K$ and an optimal bandwidth parameter, $h$ selected via the 'Silverman' rule of thumb. The object KDE builds an estimated probability density function $f$ over $S_{min}$. Moreover, KDE generates a new set of examples $E$, in quantity specified by $E = ( S_{maj} - S_{min})$ by randomly sampling from $f(S_{min})$. In this way, the number of total examples in $S_{min}$ is increased by $E$ and the class distribution balance of $S$ is adjusted accordingly. The same approach is applied to multi-class data in the same manner by oversampling each minority class by a quantity E, to adjust all classes in $|S|$ to $S_{maj}$
+The implementation of SMOTE and KDE are taken respectively from \textit{imblearn} and \textit{scikit-learn} Python libraries with their default settings. In particular, for KDE, we
+used the multivariate Gaussian KDE with its default bandwidth value determined by Silverman’s Rule of thumb (see eq  (\ref{Kernel}) - (\ref{h_silverman})) 
 <p align="center">
    <img src=https://github.com/user-attachments/assets/785758b1-faee-4724-890f-8cabb23c935d\>
 
